@@ -1,9 +1,12 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,500&family=Sriracha&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.top-bar{
+
+.top-bar {
     height: 100px;
     background-color: blue;
     color: rgb(255, 255, 255);
@@ -17,7 +20,7 @@
 
 }
 
-.top-bar-left{
+.top-bar-left {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -28,7 +31,7 @@
 
 }
 
-.top-bar-center{  
+.top-bar-center {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -37,19 +40,28 @@
     color: rgb(255, 255, 255);
     font-size: 25px;
 }
-.top-bar-right{
+
+.top-bar-right {
     justify-content: space-between;
 }
 
 .tourist-spot {
-    display: flex; /* ใช้ Flexbox เพื่อจัดตำแหน่งรูปภาพและข้อความ */
-    margin: 20px auto; /* กำหนดระยะห่างจากด้านบนและด้านล่าง */
-    padding: 20px; /* เพิ่มระยะห่างภายใน */
-    background-color: #f1eded; /* กำหนดพื้นหลังของแต่ละส่วนเป็นสีขาว */
-    border-radius: 8px; /* ทำมุมให้โค้งมน */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเพื่อทำให้ดูเด่นขึ้น */
-    width: 80%; /* ขนาดของพื้นที่ส่วนนี้เป็น 80% ของหน้าจอ */
-    align-items: top; /* จัดแนวไอเท็ม (รูปภาพและข้อความ) ให้อยู่กลางในแนวตั้ง */
+    display: flex;
+    /* ใช้ Flexbox เพื่อจัดตำแหน่งรูปภาพและข้อความ */
+    margin: 20px auto;
+    /* กำหนดระยะห่างจากด้านบนและด้านล่าง */
+    padding: 20px;
+    /* เพิ่มระยะห่างภายใน */
+    background-color: #f1eded;
+    /* กำหนดพื้นหลังของแต่ละส่วนเป็นสีขาว */
+    border-radius: 8px;
+    /* ทำมุมให้โค้งมน */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* เพิ่มเงาเพื่อทำให้ดูเด่นขึ้น */
+    width: 80%;
+    /* ขนาดของพื้นที่ส่วนนี้เป็น 80% ของหน้าจอ */
+    align-items: top;
+    /* จัดแนวไอเท็ม (รูปภาพและข้อความ) ให้อยู่กลางในแนวตั้ง */
 }
 
 .tourist-spot h2 a {
@@ -57,29 +69,40 @@
     text-decoration: none;
     font-size: 35px;
     margin-left: 30px;
-    
+
 }
 
-.tourist-spot p{
+.tourist-spot p {
     margin-left: 30px;
     font-size: 24px;
 }
 
-.tourist-spot img{
-    width: 50%; /* รูปภาพจะมีขนาดกว้าง 50% ของพื้นที่ที่มีข้อความ */
-            height: auto; /* ให้ความสูงของรูปภาพปรับอัตโนมัติให้เหมาะสม */
-            border-radius: 8px; /* ทำมุมให้โค้งมน */
+.tourist-spot img {
+    width: 50%;
+    /* รูปภาพจะมีขนาดกว้าง 50% ของพื้นที่ที่มีข้อความ */
+    height: auto;
+    /* ให้ความสูงของรูปภาพปรับอัตโนมัติให้เหมาะสม */
+    border-radius: 8px;
+    /* ทำมุมให้โค้งมน */
 }
 
 .tourist-spot {
-    display: flex; /* ใช้ Flexbox เพื่อจัดตำแหน่งรูปภาพและข้อความ */
-    margin: 20px auto; /* กำหนดระยะห่างจากด้านบนและด้านล่าง */
-    padding: 20px; /* เพิ่มระยะห่างภายใน */
-    background-color: #f1eded; /* กำหนดพื้นหลังของแต่ละส่วนเป็นสีขาว */
-    border-radius: 8px; /* ทำมุมให้โค้งมน */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเพื่อทำให้ดูเด่นขึ้น */
-    width: 80%; /* ขนาดของพื้นที่ส่วนนี้เป็น 80% ของหน้าจอ */
-    align-items: top; /* จัดแนวไอเท็ม (รูปภาพและข้อความ) ให้อยู่กลางในแนวตั้ง */
+    display: flex;
+    /* ใช้ Flexbox เพื่อจัดตำแหน่งรูปภาพและข้อความ */
+    margin: 20px auto;
+    /* กำหนดระยะห่างจากด้านบนและด้านล่าง */
+    padding: 20px;
+    /* เพิ่มระยะห่างภายใน */
+    background-color: #f1eded;
+    /* กำหนดพื้นหลังของแต่ละส่วนเป็นสีขาว */
+    border-radius: 8px;
+    /* ทำมุมให้โค้งมน */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* เพิ่มเงาเพื่อทำให้ดูเด่นขึ้น */
+    width: 80%;
+    /* ขนาดของพื้นที่ส่วนนี้เป็น 80% ของหน้าจอ */
+    align-items: top;
+    /* จัดแนวไอเท็ม (รูปภาพและข้อความ) ให้อยู่กลางในแนวตั้ง */
 }
 
 .tourist-spot h2 a {
@@ -87,18 +110,27 @@
     text-decoration: none;
     font-size: 35px;
     margin-left: 30px;
-    
+    font-family: 'Sriracha', cursive; 
 }
 
-.tourist-spot p{
+.tourist-spot p {
     margin-left: 30px;
     font-size: 24px;
+    font-family: 'Sarabun', sans-serif;
 }
 
-.tourist-spot img{
-    width: 50%; /* รูปภาพจะมีขนาดกว้าง 50% ของพื้นที่ที่มีข้อความ */
-            height: auto; /* ให้ความสูงของรูปภาพปรับอัตโนมัติให้เหมาะสม */
-            border-radius: 8px; /* ทำมุมให้โค้งมน */
+.tourist-spot img {
+    width: 50%;
+    /* รูปภาพจะมีขนาดกว้าง 50% ของพื้นที่ที่มีข้อความ */
+    height: auto;
+    /* ให้ความสูงของรูปภาพปรับอัตโนมัติให้เหมาะสม */
+    border-radius: 8px;
+    /* ทำมุมให้โค้งมน */
 }
 
-
+.footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
