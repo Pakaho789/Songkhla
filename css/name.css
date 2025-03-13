@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,500&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.top-bar {
+    height: 100px;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 95%;
+    border-radius: 8px;
+    margin: 30px auto;
+
+}
+
+.top-bar-left {
+    display: flex;
+    width: 38%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.top-bar-center {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 230px; 
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.top-bar-right {
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    font-size: 25px;
+}
+.name{
+    color: aliceblue;
+}

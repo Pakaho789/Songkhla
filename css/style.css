@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 10px;
     width: 95%;
     border-radius: 8px;
     margin: 30px auto;
@@ -22,13 +22,13 @@
 
 .top-bar-left {
     display: flex;
-    width: 100%;
+    width: 38%;
     justify-content: space-between;
     align-items: center;
     font-size: 25px;
     padding: 10px;
     text-align: center;
-
+    height: 60px;
 }
 
 .top-bar-center {
@@ -36,32 +36,32 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 230px; 
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .top-bar-right {
     justify-content: space-between;
+    text-align: center;
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+}
+.name{
+    justify-content: space-between;
+    color: aliceblue;
 }
 
 .tourist-spot {
     display: flex;
-    /* ใช้ Flexbox เพื่อจัดตำแหน่งรูปภาพและข้อความ */
     margin: 20px auto;
-    /* กำหนดระยะห่างจากด้านบนและด้านล่าง */
     padding: 20px;
-    /* เพิ่มระยะห่างภายใน */
     background-color: #f1eded;
-    /* กำหนดพื้นหลังของแต่ละส่วนเป็นสีขาว */
     border-radius: 8px;
-    /* ทำมุมให้โค้งมน */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* เพิ่มเงาเพื่อทำให้ดูเด่นขึ้น */
     width: 80%;
-    /* ขนาดของพื้นที่ส่วนนี้เป็น 80% ของหน้าจอ */
     align-items: top;
-    /* จัดแนวไอเท็ม (รูปภาพและข้อความ) ให้อยู่กลางในแนวตั้ง */
 }
 
 .tourist-spot h2 a {
@@ -79,30 +79,19 @@
 
 .tourist-spot img {
     width: 50%;
-    /* รูปภาพจะมีขนาดกว้าง 50% ของพื้นที่ที่มีข้อความ */
     height: auto;
-    /* ให้ความสูงของรูปภาพปรับอัตโนมัติให้เหมาะสม */
     border-radius: 8px;
-    /* ทำมุมให้โค้งมน */
 }
 
 .tourist-spot {
     display: flex;
-    /* ใช้ Flexbox เพื่อจัดตำแหน่งรูปภาพและข้อความ */
     margin: 20px auto;
-    /* กำหนดระยะห่างจากด้านบนและด้านล่าง */
     padding: 20px;
-    /* เพิ่มระยะห่างภายใน */
     background-color: #f1eded;
-    /* กำหนดพื้นหลังของแต่ละส่วนเป็นสีขาว */
     border-radius: 8px;
-    /* ทำมุมให้โค้งมน */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* เพิ่มเงาเพื่อทำให้ดูเด่นขึ้น */
     width: 80%;
-    /* ขนาดของพื้นที่ส่วนนี้เป็น 80% ของหน้าจอ */
     align-items: top;
-    /* จัดแนวไอเท็ม (รูปภาพและข้อความ) ให้อยู่กลางในแนวตั้ง */
 }
 
 .tourist-spot h2 a {
@@ -121,11 +110,8 @@
 
 .tourist-spot img {
     width: 50%;
-    /* รูปภาพจะมีขนาดกว้าง 50% ของพื้นที่ที่มีข้อความ */
     height: auto;
-    /* ให้ความสูงของรูปภาพปรับอัตโนมัติให้เหมาะสม */
     border-radius: 8px;
-    /* ทำมุมให้โค้งมน */
 }
 
 .footer {
@@ -133,4 +119,14 @@
     color: white;
     text-align: center;
     padding: 10px;
+}
+.name{
+    text-decoration: none;
+    color: white;
+    opacity: 1;
+    width: 45px;
+    transition: all 0.5s;
+}
+.name:hover{
+    opacity: 0.5;
 }
