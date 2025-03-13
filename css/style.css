@@ -65,10 +65,12 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 80%;
     align-items: top;
+    background: rgb(255, 255, 255, 0.3);
+    backdrop-filter: saturate(180%) blur(2px);
 }
 
 .tourist-spot h2 a {
-    color: #ff6600;
+    color: #ffffff;
     text-decoration: none;
     font-size: 35px;
     margin-left: 30px;
@@ -78,10 +80,11 @@ body{
 .tourist-spot p {
     margin-left: 30px;
     font-size: 24px;
+    color: rgb(0, 0, 0);
 }
 
 .tourist-spot img {
-    width: 50%;
+    width: 40%;
     height: auto;
     border-radius: 8px;
 }
