@@ -5,7 +5,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #FFFFFF;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdqfmXTl9_Q3mabDIw4xJ--XGdPNy0nUnvfQ&s');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: space;
+}
 .top-bar {
     height: 100px;
     background-color: blue;
@@ -25,7 +31,7 @@
     width: 38%;
     justify-content: space-between;
     align-items: center;
-    font-size: 25px;
+    font-size: 24px;
     padding: 10px;
     text-align: center;
     height: 60px;
@@ -48,16 +54,13 @@
     font-size: 25px;
     text-align: center;
 }
-.name{
-    justify-content: space-between;
-    color: aliceblue;
-}
+
 
 .tourist-spot {
     display: flex;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f1eded;
+    background-color: #eeedf1;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 80%;
@@ -75,37 +78,6 @@
 .tourist-spot p {
     margin-left: 30px;
     font-size: 24px;
-}
-
-.tourist-spot img {
-    width: 50%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.tourist-spot {
-    display: flex;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #f1eded;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    align-items: top;
-}
-
-.tourist-spot h2 a {
-    color: #ff6600;
-    text-decoration: none;
-    font-size: 35px;
-    margin-left: 30px;
-    font-family: 'Sriracha', cursive; 
-}
-
-.tourist-spot p {
-    margin-left: 30px;
-    font-size: 24px;
-    font-family: 'Sarabun', sans-serif;
 }
 
 .tourist-spot img {
