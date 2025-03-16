@@ -17,8 +17,8 @@ body {
 }
 
 .top-bar {
-    height: 100px;
-    background-color: blue;
+    height: 80px;
+    background-color: #021c55;
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
@@ -27,35 +27,35 @@ body {
     width: 95%;
     border-radius: 8px;
     margin: 30px auto;
-
 }
 
-.top-bar-left {
+.top-bar-left{
     display: flex;
-    width: 38%;
+    width: 50%;
     justify-content: space-between;
     align-items: center;
     font-size: 25px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 
 }
 
-.top-bar-center {
+.top-bar-center{  
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 230px; 
+    padding: 10px;
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .top-bar-right {
     justify-content: space-between;
-    text-align: center;
+    align-items: end;
     display: flex;
     font-size: 25px;
+    width: 30%;
 }
 .container {
     display: flex;

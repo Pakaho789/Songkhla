@@ -6,21 +6,20 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #FFFFFF;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdqfmXTl9_Q3mabDIw4xJ--XGdPNy0nUnvfQ&s');
+    background-color: #f9f9f9;
     background-position: center bottom;
     background-size: cover;
     background-repeat: space;
 }
 .top-bar {
     height: 100px;
-    background-color: blue;
+    width: 95%;
+    background-color:#021c55;
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    width: 95%;
+    padding: 10px;   
     border-radius: 8px;
     margin: 30px auto;
 
@@ -60,17 +59,15 @@ body{
     display: flex;
     margin: 20px auto;
     padding: 20px;
-    background-color: #eeedf1;
+    background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 80%;
     align-items: top;
-    background: rgb(255, 255, 255, 0.3);
-    backdrop-filter: saturate(180%) blur(2px);
 }
 
 .tourist-spot h2 a {
-    color: #ffffff;
+    color: #FF0000;
     text-decoration: none;
     font-size: 35px;
     margin-left: 30px;
