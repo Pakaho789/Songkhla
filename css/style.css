@@ -52,6 +52,7 @@ body{
     display: flex;
     font-size: 25px;
     text-align: center;
+    width: 300px;
 }
 
 
@@ -80,11 +81,7 @@ body{
     color: rgb(0, 0, 0);
 }
 
-.tourist-spot img {
-    width: 40%;
-    height: auto;
-    border-radius: 8px;
-}
+
 
 .footer {
     background-color: blue;
@@ -98,6 +95,9 @@ body{
     opacity: 1;
     width: 45px;
     transition: all 0.5s;
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
 }
 .name:hover{
     opacity: 0.5;

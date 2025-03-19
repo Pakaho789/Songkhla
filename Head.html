@@ -93,7 +93,7 @@
             margin: 30px auto;
         }
 
-        .top-bar-left{
+        .top-bar-left {
             display: flex;
             width: 50%;
             justify-content: space-between;
@@ -104,9 +104,9 @@
 
         }
 
-        .top-bar-center{  
+        .top-bar-center {
             display: flex;
-            width: 100%;
+            width: 60%;
             justify-content: space-between;
             align-items: center;
             padding: 10px;
@@ -118,6 +118,23 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            width: 200px;
+        }
+
+        .name {
+            text-decoration: none;
+            color: white;
+            opacity: 1;
+            width: 45px;
+            transition: all 0.5s;
+        }
+
+        .name:hover {
+            opacity: 0.5;
+        }
+
+        .refer {
+            text-align: center;
         }
     </style>
 </head>
@@ -131,6 +148,9 @@
 
         <div class="top-bar-center">
             <p>หัวนายแรง</p>
+        </div>
+        <div class="top-bar-right">
+            <h3><a href="index.html" rel="noopener" class="name">กลับไปสู่หน้าหลัก</a></h3>
         </div>
 
     </div>
@@ -162,25 +182,31 @@
                     ชาวบ้านเชื่อว่าดวงวิญญานของนายแรงยังเป็นปู่โสมเฝ้าทรัพย์มาจนทุกวันนี้</p>
             </section>
 
-            <section>
-                <h2 class="section-title">สถานที่ท่องเที่ยวใกล้เคียง หัวนายแรง</h2>
-                <ul class="section-text">
-                    <li>วัดเขาเก้าแสน (0.3 กม.)</li>
-                    <li>หาดชลาทัศน์ (2.9 กม.)</li>
-                </ul>
-            </section>
-            <section>
-                <h2 class="section-title">เส้นทางสำหรับการเดินทางไป หัวนายแรง</h2>
-                <a href="https://maps.app.goo.gl/FheuUBnP2j1sMZab7" target="_blank">
-                    ดูเส้นทางบน Google Maps
-                </a>
-            </section>
 
             <section>
                 <h2 class="section-title">ภาพของหัวนายแรง</h2>
                 <div class="image-container">
                     <img src="imges/img h01.jpg" alt="ภาพของหัวนายแรง" />
                 </div>
+                <div class="refer">
+                    <p>ขอบคุณรูปภาพจาก <a href="https://clib.psu.ac.th/southerninfo/content/3/714c6fd2"
+                            target="_blank">https://clib.psu.ac.th/southerninfo/content/3/714c6fd2</a></p>
+                </div>
+                <section>
+                    <h2 class="section-title">สถานที่ท่องเที่ยวใกล้เคียง หัวนายแรง</h2>
+                    <ul class="section-text">
+                        <li>วัดเขาเก้าแสน (0.3 กม.)</li>
+                        <li>หาดชลาทัศน์ (2.9 กม.)</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="section-title">เส้นทางสำหรับการเดินทางไป หัวนายแรง</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1979.2569638296698!2d100.6217044!3d7.1820443!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b2cd2af09d7bfd%3A0x5f854724e2aaa3e5!2z4LmA4LiC4Liy4LmA4LiB4LmJ4Liy4LmA4Liq4LmJ4LiH!5e0!3m2!1sth!2sth!4v1742378080990!5m2!1sth!2sth"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+    
             </section>
         </div>
     </main>
