@@ -5,12 +5,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: #f9f9f9;
     background-position: center bottom;
     background-size: cover;
     background-repeat: space;
 }
+
+
 .top-bar {
     height: 100px;
     width: 95%;
@@ -102,3 +105,5 @@ body{
 .name:hover{
     opacity: 0.5;
 }
+
+
